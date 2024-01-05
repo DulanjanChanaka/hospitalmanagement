@@ -22,6 +22,7 @@ const ClinicRegister = () => {
         setBookno("")
         setTeam("")
         setPhone("")
+        console.log(docRef)
       } catch (error) {
         console.error('error adding document: ', error)
       }

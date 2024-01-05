@@ -50,12 +50,3 @@ const Footer = () => {
 }
 
 export default Footer
-
-{/* <div >
-<ul className='flex flex-row justify-around py-2 text-white'>
-    <Link to="/"  onClick={()=> setFootermenu(path)}><li className='text-center'><HomeIcon/><p>Home</p></li></Link>
-    <Link to="/"><li className='text-center'><MedicalServicesIcon/><p>Clinic</p></li></Link>
-    <Link to="/"><li className='text-center'><InfoIcon/><p>Info</p></li></Link>
-    <Link to="/"><li className='text-center'><PersonIcon/><p>About</p></li></Link>
-</ul>
-</div> */}

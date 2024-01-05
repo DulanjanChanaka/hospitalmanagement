@@ -28,6 +28,7 @@ const Registration = () => {
             setPhone("")
             setAddress("")
             setUsername("")
+            console.log(docRef)
         } catch (error) {
 
             console.error('error adding document: ', error)
